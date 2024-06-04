@@ -1,12 +1,13 @@
 import './App.css';
+import Navbar from './components/Navbar';
+import PostList from './components/PostCard';
 
 function App() {
   return (
-    <>
-      <h1 className='text-3xl text-blue-500 font-bold underline p-12'>
-        Hello world!
-      </h1>
-    </>
+    <div className='bg-white p-12 items-center w-full'>
+      <Navbar />
+      <PostList/>
+    </div>
   );
 }
 
